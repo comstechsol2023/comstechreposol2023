@@ -316,7 +316,7 @@
             ).then((html) => {
   
               document.getElementById("sheetdb-form").reset();
-              alert("Thank you for taking appointment..! We Will Contact You Soon...")
+              swal("Thank you for taking appointment..!", "We Will Contact You Soon...", "success")
               //new page open on submit
   
             });
@@ -453,5 +453,6 @@
             position: 'right'
         });
     </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
