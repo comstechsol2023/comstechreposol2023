@@ -64,10 +64,6 @@ footer ul.social_icons li a:focus,
     right: 16px;
 }
 
-.footer_blog {
-	background: #151414;
-}
-
 footer h2::after,
 .footer_mail-section .field button.button_custom,
 .cprt,.contact_us_section {
